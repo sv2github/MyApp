@@ -1,0 +1,49 @@
+.wrapper {
+	background-color:#FF0000;
+	width:1200px;
+	height:auto;
+	margin: auto;
+	text-align: center;
+	font-family: Arial, Geneva, sans-serif;
+	border-radius: 20px;
+}
+
+.menu {
+	font-size: 16px;
+	font-family: Arial, Geneva, sans-serif;
+	border-radius: 8px;
+}
+
+/*.menu ul {
+	width:30%;
+}
+*/
+#navlist li { 
+	display: inline; 
+	list-style-type: none;
+	text-align: center;
+	padding: 10px; 
+	color: #4FD5D6;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #4FD5D6;
+	text-align: center;
+}
+
+.menu a:hover {
+	color: #400D12;
+	background-color: #FFF;
+}
+
+.menu>h1, p, h2 {
+	color: #4FD5D6;
+
+}
+
+.input #say_text {
+	border-radius: 20px;
+}
+
+

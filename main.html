@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>SPARCS</title>
+	<meta charset = "UTF-8">
+	<meta name = "author" content = "Siddhartha Vemuganti">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css"/>
+	<!-- <link rel="stylesheet" type="text/css" href= "assets/css/bootstrap.css"> -->
+	<script type="text/javascript" src = "assets/js/jquery.js"></script>
+	<!-- // <script type="text/javascript" src = "assets/js/bootstrap.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="menu">
+			<h1>S P A R C S</h1>
+			<p>Text to Speech Conversion System.</p>
+			<h2>High Quality Text-to-Speech API</h2>
+			<div id="navcontainer">
+				<ul id="navlist">
+					<li id="active"><a href="index.html" id="current">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div>
+			<label style="color:yellow;">Enter text &amp; convert to MP3</label>
+			<div class="input">
+				<textarea id="say_text" style ="width:800px; height:300px;"></textarea>
+			</div>
+			<button id="say_submit">Click to Convert to (MP3) »</button>
+			<div id="download_box" style="display: none;"><br />
+				<p style="color:yellow;">Listen to your text/MP3 Download URL:</p>
+				<input type="text" id="download_url" style="width: 600px;" size="16" />
+			</div>
+			<audio id="audioplayer" preload="metadata" controls style="width:100%;" >
+				<source src= "getTextToSpeechURL(s)" type="audio/mp3">
+					Your browser doesn't support the HTML audio tag. You can still download the show, though!
+			</audio>
+
+			<script type="text/javascript" src="https://www.dropbox.com/static/api/1/dropins.js" id="dropboxjs" data-app-key="7bt1xkxgbou5nbd"></script>
+			<a href="https://dl.dropboxusercontent.com/s/deroi5nwm6u7gdf/advice.png" class="dropbox-saver"></a>
+				<!-- <span class="help-block">Check FAQ's</span> -->
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
+
+
+

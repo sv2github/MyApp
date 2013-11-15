@@ -1,0 +1,30 @@
+#wrapper {
+	width:auto;
+	padding:20px;
+	text-align: center;
+	background-color: #FFDE00;
+	font-family: verdana;
+	webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius: 1%;
+	border-style: solid;
+	border-color: blue;
+}
+
+#header {
+	width:900px;
+	margin: 25px auto;
+	background-position: center;
+}
+
+#intro {
+	color: #5a0002;
+}
+
+h1 {
+	color:blue;
+}
+
+#click_to_enter {
+	color:#5a0002;
+}

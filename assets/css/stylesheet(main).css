@@ -1,0 +1,46 @@
+/*stylesheet for app*/
+/* author: Siddhartha Vemuganti*/
+/* date: 10/17/2013*/
+
+/*html {
+	background-color: #FFDE00;
+}*/
+
+#wrapper {
+	width:auto;
+	padding:20px;
+	text-align: center;
+	background-color: #FFDE00;
+	font-family: verdana;
+	webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius: 1%;
+	border-style: solid;
+	border-color: blue;
+}
+
+#header {
+	width:900px;
+	margin: 25px auto;
+	background-position: center;
+}
+
+#intro {
+	color: #5a0002;
+}
+
+h1 {
+	color:blue;
+}
+
+#text_area {
+	background-color: white;
+	border-radius: 1%;
+	border: bold;
+	border-color: blue;
+}
+
+#click_convert {
+	color: #5a0002;
+	border-radius: 1%;
+}
